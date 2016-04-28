@@ -1,0 +1,24 @@
+{
+  "name": "zelek-workspace",
+  "description": "Symphony CMS Workspace for bronislawzelek.com",
+  "main": "",
+  "authors": [
+    "Olaf Schindler"
+  ],
+  "license": "ISC",
+  "homepage": "bronislawzelek.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^2.2.3"
+  },
+  "devDependencies": {
+    "foundation-sites": "^6.2.1"
+  }
+}

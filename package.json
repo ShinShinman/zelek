@@ -1,0 +1,15 @@
+{
+  "name": "zelek-workspace",
+  "version": "0.0.1",
+  "description": "Symphony CMS Workspace for bronislawzelek.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olaf Schindler",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1"
+  }
+}

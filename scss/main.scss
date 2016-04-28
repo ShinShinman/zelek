@@ -1,0 +1,84 @@
+@import 'vendor';
+
+@include foundation-everything;
+
+body {
+	background-color: darkgrey;
+	color: white;
+}
+
+a {
+	color: white;
+	&:hover {
+		color: lightgrey;
+	}
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+.inline-list {
+	list-style: none;
+	overflow: hidden;
+
+	li {
+		float: left;
+		margin-right: 20px;
+	}
+}
+
+.top-bar {
+	margin-bottom: 50px;
+	background-color: black;
+	ul {
+		background-color: black;
+	}
+}
+
+.main-menu {
+	margin-left: 0;
+	margin-bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+
+	li {
+		margin-right: 100px;
+	}
+
+	.home {
+		text-transform: initial;
+		a {
+			color: white;		}
+	}
+	a {
+		color: darkgrey;
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+.bricks {
+	.column {
+		margin-bottom: 50px;
+	}
+	.thumbnail {
+		border: none;
+		box-shadow: none;
+		transition: none;
+	}
+}
+
+.work {
+	img {
+		max-height: 600px;
+		display: block;
+		margin: 0 auto 10px;
+	}
+	p {
+		text-align: center;
+	}
+}
