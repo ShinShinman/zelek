@@ -32,7 +32,7 @@
 </xsl:template>
 
 <xsl:template match="work/entry">
-	<img class="work" src="{$workspace}{image/@path}/{image/filename}" alt="Bronisław Zelek – {title}" />
+	<img class="work" src="{$root}/image/test{image/@path}/{image/filename}" alt="Bronisław Zelek – {title}" />
 	<xsl:copy-of select="caption/node()" />
 </xsl:template>
 

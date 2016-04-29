@@ -1,6 +1,6 @@
 {
   "name": "zelek-workspace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Symphony CMS Workspace for bronislawzelek.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,9 @@
     "bower": "^1.7.9",
     "browser-sync": "^2.12.3",
     "gulp": "^3.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShinShinman/zelek.git"
+    }
 }
