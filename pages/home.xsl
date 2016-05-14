@@ -31,7 +31,7 @@
 
 <xsl:template match="paintings/entry">
 	<div class="column">
-		<a href="{$root}/work/{title}"><img src="{$workspace}{image/@path}/{image/filename}" class="thumbnail" alt="Bronisław Zelek" /></a>
+		<a href="{$root}/works/{title}"><img src="{$workspace}{image/@path}/{image/filename}" class="thumbnail" alt="Bronisław Zelek" /></a>
 	</div>
 </xsl:template>
 

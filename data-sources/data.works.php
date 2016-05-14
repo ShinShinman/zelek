@@ -1,8 +1,8 @@
 <?php
-class datasourcework extends SectionDatasource
+class datasourceworks extends SectionDatasource
 {
-    public $dsParamROOTELEMENT = 'work';
-    public $dsParamORDER = 'desc';
+    public $dsParamROOTELEMENT = 'works';
+    public $dsParamORDER = 'asc';
     public $dsParamPAGINATERESULTS = 'no';
     public $dsParamLIMIT = '20';
     public $dsParamSTARTPAGE = '1';
@@ -10,14 +10,10 @@ class datasourcework extends SectionDatasource
     public $dsParamREDIRECTONFORBIDDEN = 'no';
     public $dsParamREDIRECTONREQUIRED = 'no';
     public $dsParamREQUIREDPARAM = '$title';
-    public $dsParamSORT = 'system:id';
+    public $dsParamSORT = 'order';
     public $dsParamHTMLENCODE = 'no';
     public $dsParamASSOCIATEDENTRYCOUNTS = 'no';
-    
-    public $dsParamFILTERS = array(
-        '1' => '{$title}',
-    );
-        
+
     public $dsParamINCLUDEDELEMENTS = array(
         'image',
         'title',
@@ -33,13 +29,13 @@ class datasourcework extends SectionDatasource
     public function about()
     {
         return array(
-            'name' => 'Work',
+            'name' => 'Works',
             'author' => array(
                 'name' => 'Olaf Schindler',
                 'website' => 'http://localhost/bronislawzelek.com',
                 'email' => 'studio@orkana39.pl'),
             'version' => 'Symphony 2.6.7',
-            'release-date' => '2016-04-28T13:37:32+00:00'
+            'release-date' => '2016-05-13T13:09:10+00:00'
         );
     }
     public function getSource()

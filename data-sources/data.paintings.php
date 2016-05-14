@@ -38,7 +38,7 @@ class datasourcepaintings extends SectionDatasource
                 'website' => 'http://localhost/bronislawzelek.com',
                 'email' => 'studio@orkana39.pl'),
             'version' => 'Symphony 2.6.7',
-            'release-date' => '2016-04-28T12:33:17+00:00'
+            'release-date' => '2016-05-13T12:58:15+00:00'
         );
     }
     public function getSource()
