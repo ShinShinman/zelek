@@ -32,7 +32,7 @@
 </xsl:template>
 
 <xsl:template match="collection/entry">
-	<h3><xsl:value-of select="title" /></h3>
+	<!--<h3><xsl:value-of select="title" /></h3>-->
 	<p><xsl:value-of select="content" /></p>
 </xsl:template>
 
