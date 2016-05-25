@@ -42,24 +42,24 @@
 				<xsl:choose>
 					<xsl:when test="./preceding-sibling::entry[category/item/@handle = $category][1]">
 						<div class="prev butt">
-						<a href="{$root}/works/{./preceding-sibling::entry[category/item/@handle = $category][1]/title/@handle}">Prev </a>
+						<a href="{$root}/works/{./preceding-sibling::entry[category/item/@handle = $category][1]/title/@handle}">> </a>
 						</div>
 					</xsl:when>
 					<xsl:otherwise>
 						<div class="prev butt">
-						<a href="{$root}/works/{./following-sibling::entry[category/item/@handle = $category][last()]/title/@handle}">Prev </a>
+						<a href="{$root}/works/{./following-sibling::entry[category/item/@handle = $category][last()]/title/@handle}">> </a>
 						</div>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:choose>
 					<xsl:when test="./following-sibling::entry[category/item/@handle = $category][1]">
 						<div class="next butt">
-						<a href="{$root}/works/{./following-sibling::entry[category/item/@handle = $category][1]/title/@handle}">Next</a>
+						<a href="{$root}/works/{./following-sibling::entry[category/item/@handle = $category][1]/title/@handle}">></a>
 						</div>
 					</xsl:when>
 					<xsl:otherwise>
 						<div class="next butt">
-						<a href="{$root}/works/{./preceding-sibling::entry[category/item/@handle = $category][last()]/title/@handle}">Next</a>
+						<a href="{$root}/works/{./preceding-sibling::entry[category/item/@handle = $category][last()]/title/@handle}">></a>
 						</div>
 					</xsl:otherwise>
 				</xsl:choose>
