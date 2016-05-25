@@ -3555,7 +3555,8 @@ table.hover tr:nth-of-type(even):hover {
 
 body {
   background-color: darkgrey;
-  color: white; }
+  color: white;
+  font-family: 'Archivo Narrow', sans-serif; }
 
 a {
   color: white; }
@@ -3574,21 +3575,25 @@ ul {
     margin-right: 20px; }
 
 .top-bar {
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   background-color: black; }
   .top-bar ul {
     background-color: black; }
 
 .main-menu {
+  margin-top: 45px;
   margin-left: 0;
   margin-bottom: 0;
-  height: 50px;
-  line-height: 50px;
   text-transform: uppercase; }
   .main-menu li {
-    margin-right: 100px; }
+    margin-right: 80px;
+    height: 21px;
+    line-height: 21px; }
   .main-menu .home {
-    text-transform: initial; }
+    text-transform: initial;
+    margin-right: 160px;
+    font-size: 21px;
+    margin-top: -1px; }
     .main-menu .home a {
       color: white; }
   .main-menu a {
@@ -3597,8 +3602,11 @@ ul {
       color: white; }
 
 .bricks .column, .bricks .columns {
-  margin-bottom: 50px; }
+  margin-bottom: 120px; }
 .bricks .thumbnail {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
   border: none;
   box-shadow: none;
   transition: none; }

@@ -5,6 +5,7 @@
 body {
 	background-color: darkgrey;
 	color: white;
+	font-family: 'Archivo Narrow', sans-serif;
 }
 
 a {
@@ -30,7 +31,7 @@ ul {
 }
 
 .top-bar {
-	margin-bottom: 50px;
+	margin-bottom: 120px;
 	background-color: black;
 	ul {
 		background-color: black;
@@ -38,18 +39,22 @@ ul {
 }
 
 .main-menu {
+	margin-top: 45px; //76px;
 	margin-left: 0;
 	margin-bottom: 0;
-	height: 50px;
-	line-height: 50px;
 	text-transform: uppercase;
 
 	li {
-		margin-right: 100px;
+		margin-right: 80px;
+		height: 21px;
+		line-height: 21px;
 	}
 
 	.home {
 		text-transform: initial;
+		margin-right: 160px;
+		font-size: 21px;
+		margin-top: -1px;
 		a {
 			color: white;		}
 	}
@@ -63,9 +68,12 @@ ul {
 
 .bricks {
 	.column {
-		margin-bottom: 50px;
+		margin-bottom: 120px;
 	}
 	.thumbnail {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
 		border: none;
 		box-shadow: none;
 		transition: none;
