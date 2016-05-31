@@ -34,7 +34,6 @@
 <xsl:template match="works/entry">
 	<xsl:param name="category" select="category/item/@handle" />
 	<img class="work" src="{$root}/image/work{image/@path}/{image/filename}" alt="Bronisław Zelek – {title}" />
-	<xsl:copy-of select="caption/node()" />
 
 	<xsl:choose>
 		<xsl:when test="count(../entry[category/item/@handle = $category]) &gt; 1">

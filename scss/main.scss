@@ -15,7 +15,7 @@
 }
 
 body {
-	background-color: darkgrey;
+	background-color: rgb(197, 197, 197);
 	font-family: 'Archivo Narrow', sans-serif;
 	color: black;
 }
@@ -79,9 +79,8 @@ ul {
 }
 
 .bricks {
-	margin-top: 120px;
 	.column {
-		margin-bottom: 120px;
+		margin-top: 120px;
 	}
 	.thumbnail {
 		display: block;
@@ -91,6 +90,10 @@ ul {
 		box-shadow: none;
 		transition: none;
 	}
+}
+p.caption {
+	text-align: center;
+	margin-top: 60px;
 }
 
 .works {
@@ -127,5 +130,21 @@ ul {
 			//display: block;
 			//line-height: 90vh;
 		}
+	}
+}
+
+article {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.6rem;
+	}
+	h3 {
+		font-size: 1rem;
+		font-weight: bold;
+	}
+	img {
+		width: 60%;
 	}
 }
