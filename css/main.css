@@ -3634,6 +3634,11 @@ body {
   background-color: #c5c5c5;
   font-family: 'Archivo Narrow', sans-serif;
   color: black; }
+  body.home {
+    background-image: url("../images/lp-bcgr.png");
+    background-position: center -10px;
+    background-size: cover;
+    background-repeat: no-repeat; }
 
 a {
   color: black; }
@@ -3702,8 +3707,9 @@ p.caption {
 .works .butt {
   font-family: 'icons';
   display: inline-block;
-  width: 50%;
+  width: 49.5%;
   padding: 0 40px;
+  margin-top: 20px;
   margin-bottom: 20px
   /*
   position: absolute;

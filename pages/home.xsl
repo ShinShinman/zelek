@@ -24,9 +24,11 @@
 <xsl:include href="../utilities/master.xsl"/>
 
 <xsl:template match="data">
+	<!--
 	<div class="bricks row small-up-1 medium-up-2 large-up-4">
 		<xsl:apply-templates select="paintings/entry" />
 	</div>
+-->
 </xsl:template>
 
 <xsl:template match="paintings/entry">
