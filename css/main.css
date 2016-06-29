@@ -3684,7 +3684,7 @@ ul {
       color: white; }
 
 .bricks .column, .bricks .columns {
-  margin-top: 120px; }
+  margin-top: 40px; }
 .bricks .thumbnail {
   display: block;
   width: 80%;
@@ -3695,8 +3695,8 @@ ul {
           transition: none; }
 
 p.caption {
-  text-align: center;
-  margin-top: 60px; }
+  margin-top: 20px;
+  margin-left: 40px; }
 
 .works img {
   max-height: 600px;

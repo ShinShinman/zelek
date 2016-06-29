@@ -24,13 +24,13 @@
 <xsl:include href="../utilities/master.xsl"/>
 
 <xsl:template match="data">
-	<div class="bricks row small-up-1 medium-up-2 large-up-4">
-		<xsl:apply-templates select="poster/entry" />
-	</div>
 	<div class="row">
 		<div class="small-up-1 medium-up-2 large-up-4">
 			<p class="caption">Print ofset 60 × 85 cm 1963–1969. © B.&thinsp;Zelek</p>
 		</div>
+	</div>
+	<div class="bricks row small-up-1 medium-up-2 large-up-4">
+		<xsl:apply-templates select="poster/entry" />
 	</div>
 </xsl:template>
 
