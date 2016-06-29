@@ -3683,16 +3683,18 @@ ul {
     .main-menu a:hover {
       color: white; }
 
-.bricks .column, .bricks .columns {
-  margin-top: 40px; }
-.bricks .thumbnail {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-  border: none;
-  box-shadow: none;
-  -webkit-transition: none;
-          transition: none; }
+.bricks {
+  margin-bottom: 40px; }
+  .bricks .column, .bricks .columns {
+    margin-top: 40px; }
+  .bricks .thumbnail {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    -webkit-transition: none;
+            transition: none; }
 
 p.caption {
   margin-top: 20px;
