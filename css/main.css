@@ -3660,6 +3660,7 @@ ul {
   margin-bottom: 40px;
   background-color: black; }
   .top-bar ul {
+    padding-left: 25px;
     background-color: black; }
 
 .main-menu {
