@@ -41,7 +41,7 @@
 			<meta name="description" content=""/>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
 			<xsl:apply-templates mode="meta-tags"/>
-			<link rel="stylesheet" type="text/css" href="{$workspace}/css/main.css" />
+			<link rel="stylesheet" type="text/css" href="{$workspace}/css/main.min.css" />
 		</head>
 
     <body class="{$current-page}">
