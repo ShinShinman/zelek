@@ -137,8 +137,10 @@ p.caption {
 			//right: 0;
 		}
 		a {
-			//display: block;
-			//line-height: 90vh;
+			color: #8e928b;
+			&:hover {
+				color: rgb(70, 70, 70);
+			}
 		}
 	}
 }
@@ -156,5 +158,8 @@ article {
 	}
 	img {
 		width: 60%;
+	}
+	li span {
+		margin-left: 33px;
 	}
 }

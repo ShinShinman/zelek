@@ -25,11 +25,11 @@
 
 <xsl:template match="data">
 	<div class="row">
-		<div class="small-up-1 medium-up-2 large-up-4">
-			<p class="caption">Print ofset 60 × 85 cm 1963–1969. © B.&thinsp;Zelek</p>
+		<div class="small-up-2 medium-up-4 large-up-5">
+			<p class="caption">Print offset 60 × 85 and 70 × 100 cm 1963–1969. © B.&thinsp;Zelek</p>
 		</div>
 	</div>
-	<div class="bricks row small-up-1 medium-up-2 large-up-4">
+	<div class="bricks row small-up-2 medium-up-4 large-up-5">
 		<xsl:apply-templates select="poster/entry" />
 	</div>
 </xsl:template>
