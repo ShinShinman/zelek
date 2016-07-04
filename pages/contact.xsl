@@ -26,7 +26,9 @@
 <xsl:template match="data">
 	<div class="row">
 		<div class="large-5 columns end">
-			<xsl:apply-templates select="contact/entry" />
+			<article>
+				<xsl:apply-templates select="contact/entry" />
+			</article>
 		</div>
 	</div>
 </xsl:template>

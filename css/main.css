@@ -3647,7 +3647,8 @@ a {
 
 ul {
   list-style: none;
-  margin-left: 0; }
+  margin-left: 0;
+  line-height: 1.4; }
 
 .inline-list {
   list-style: none;
@@ -3687,7 +3688,8 @@ ul {
 .bricks {
   margin-bottom: 40px; }
   .bricks .column, .bricks .columns {
-    margin-top: 40px; }
+    margin-top: 40px;
+    margin-bottom: 30px; }
   .bricks .thumbnail {
     display: block;
     width: 80%;
@@ -3730,16 +3732,18 @@ p.caption {
     .works .butt a:hover {
       color: #464646; }
 
-article h1 {
-  font-size: 2rem; }
-article h2 {
-  font-size: 1.6rem; }
-article h3 {
-  font-size: 1rem;
-  font-weight: bold; }
-article img {
-  width: 60%; }
-article li span {
-  margin-left: 33px; }
+article {
+  margin-left: 26px; }
+  article h1 {
+    font-size: 2rem; }
+  article h2 {
+    font-size: 1.6rem; }
+  article h3 {
+    font-size: 1rem;
+    font-weight: bold; }
+  article img {
+    width: 60%; }
+  article li span {
+    margin-left: 33px; }
 
 /*# sourceMappingURL=main.css.map */
