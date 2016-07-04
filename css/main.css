@@ -3743,6 +3743,8 @@ article {
     font-weight: bold; }
   article img {
     width: 60%; }
+  article ul.address {
+    line-height: 1.6; }
   article li span {
     margin-left: 33px; }
 
