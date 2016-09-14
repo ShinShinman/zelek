@@ -1,0 +1,202 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/bronislawzelek.com/workspace"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/package.json",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/.git/COMMIT_EDITMSG",
+		"/C/xampp/htdocs/bronislawzelek.com/index.html",
+		"/C/xampp/htdocs/bronislawzelek.com/.git/config",
+		"/C/xampp/htdocs/bronislawzelek.com/.gitmodules",
+		"/C/Users/shinman/Desktop/trening/the essential 6 month workout plan for beginners/source.txt",
+		"/C/Users/shinman/Desktop/F632BFC1505BA69B4E6FAB5421F3235BB91C3F60.asc",
+		"/C/Users/shinman/Desktop/encrypted msg.txt.asc",
+		"/C/Users/shinman/Desktop/adelle.pgp",
+		"/C/Users/shinman/Desktop/encrypted msg.txt",
+		"/C/Users/shinman/Desktop/encrypted msg.txt.gpg",
+		"/E/yszt.asc",
+		"/C/Users/shinman/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/shinman/Desktop/silownia/sklad drewna.txt",
+		"/C/laragon/www/ma.wroc.pl/manifest/config.php",
+		"/C/laragon/www/ma.wroc.pl/.git/HEAD",
+		"/C/laragon/www/ma.wroc.pl/.gitmodules",
+		"/C/laragon/www/ma.wroc.pl/workspace/package.json",
+		"/C/Users/shinman/Desktop/joga.txt",
+		"/C/laragon/www/ma.wroc.pl/index.html",
+		"/C/Users/shinman/Desktop/yszt.txt",
+		"/C/Users/shinman/Desktop/silownia/silownia.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/G/_ZRZUT_/3. Pulpit/25.08.2016/Nowy dokument tekstowy.txt",
+		"/G/_ZRZUT_/3. Pulpit/25.08.2016/steam.txt"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"127.0.0.1 activate.adobe.com",
+			"activate.adobe.com",
+			"practivate.adobe.com",
+			"hlrcv.stage.adobe.com",
+			"na1r.services.adobe.com",
+			"lm.licenses.adobe.com",
+			"lmlicenses.wip4.adobe.com",
+			"hlrcv.stage.adobe.com",
+			"na1r.services.adobe.com"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "zelek-workspace.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
