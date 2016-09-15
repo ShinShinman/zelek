@@ -44,7 +44,15 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/pages/news.xsl",
+		"/Z/Zelek/news/tekst.txt",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/scss/main.scss",
+		"/C/xampp/htdocs/bronislawzelek.com/extensions/ajax_checkbox/extension.meta.xml",
+		"/C/xampp/htdocs/bronislawzelek.com/extensions/ajax_checkbox/README.md",
 		"/C/xampp/htdocs/bronislawzelek.com/workspace/package.json",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/bower.json",
+		"/C/laragon/www/ma.wroc.pl/package.json",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/.gitignore",
 		"/C/xampp/htdocs/bronislawzelek.com/workspace/.git/COMMIT_EDITMSG",
 		"/C/xampp/htdocs/bronislawzelek.com/index.html",
 		"/C/xampp/htdocs/bronislawzelek.com/.git/config",
@@ -72,7 +80,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -86,6 +94,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"line-height: 1.6;",
+			"p {",
+			"line-height",
 			"127.0.0.1 activate.adobe.com",
 			"activate.adobe.com",
 			"practivate.adobe.com",
@@ -194,7 +205,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

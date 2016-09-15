@@ -3608,6 +3608,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat; }
 
+p {
+  line-height: 1.4; }
+
 a {
   color: black; }
   a:hover, a a:focus {
