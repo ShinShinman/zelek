@@ -24,38 +24,57 @@
 <xsl:include href="../utilities/master.xsl"/>
 
 <xsl:template match="data">
+	<xsl:variable name="prev-page">
+		<xsl:choose>
+			<xsl:when test="$page = 1">
+				<xsl:value-of select="news/pagination/@total-pages" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$page - 1" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	
+	<xsl:variable name="next-page">
+		<xsl:choose>
+			<xsl:when test="$page = news/pagination/@total-pages">
+				<xsl:text>1</xsl:text>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$page + 1" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+
 	<div class="row">
 		<div class="large-5 columns">
 			<xsl:apply-templates select="news/entry" />
-			<article>
-				<h1></h1>
-				<p style="margin-top: 35px"><strong>Junya Watanabe<br/>
-				COMME DES GARCONS<br/>
-				2017 Sprig Summer Mens Collection</strong></p>
-
-				<p><strong>Junya Watanabe’s Tatto-ed Gangsters<br/>
-				There’s a tweaky little alt-punk thing nibbling at the edges of fashion right now. So maybe this was 
-				Watanabe’s Mudd Club collection.</strong></p>
-
-				<p>PARIS, France — What’s it like to be Junya Watanabe? He’s a cultural historian, trawling through social sub-currents to pluck out a single gleaming fish of inspiration. Picture him alighting on tattoo-ed gangsters — not the big boss, just the henchmen — who were the characters he cast for his Spring/Summer 2017&nbsp;collection.</p>
-
-				<p>For the first time ever, Watanabe was even ready to be a little more forthcoming about his source material: Black Cat, White Cat, a 1998 award-winner from perennal critic’s favourite Emir Kusturica. If he was hoping the humour of that movie would infuse his collection, he was aiming too high, but there was certainly a fast-paced feistiness to the show.</p>
-
-				<p>A lot of that had to do with the soundtrack, packed with shouty tracks from Plastic People of the Universe, who were Vaclav Havel’s favourite band back in&nbsp;the day of Czechoslovakia’s Velvet Revolution. Elaborating on the Eastern European theme, Watanabe used posters from Polish artist Bronislaw Zelek as&nbsp;the main graphic element, printed or woven, in the collection. And theghost of&nbsp;Poland’s James Dean, Zbigniew Cybulski, hovered over the leather jackets. (Some of them were pleather, but not enough to make a statement, at&nbsp;which point you have to wonder, why fake it?).</p>
-
-				<p>That whole aesthetic was a touchstone for the Manhattan downtowners who made the Mudd Club into a cultural crucible in the early 1980s. There’s a tweaky little alt-punk thing nibbling at the edges of fashion right now. So maybe this was Watanabe’s Mudd Club collection.</p>
-			</article>
+			<div class="prev butt"><a href="{$root}/{$current-page}/{$prev-page}/">> </a></div>
+			<div class="next butt"><a href="{$root}/{$current-page}/{$next-page}/">> </a></div>
 		</div>
 		<div class="large-7 columns">
-			<p><img src="{$workspace}/images/img-comme-des-garcons.png" alt="img-comme-des-garcons.png" /></p>
+			<xsl:apply-templates select="news/entry/image" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12 columns">
+			
 		</div>
 	</div>
 </xsl:template>
 
 <xsl:template match="news/entry">
 	<article>
-		<h1><xsl:value-of select="title/p" /></h1>
+		<header>
+			<h1><xsl:copy-of select="title/p/node()" /></h1>
+			<h2><xsl:copy-of select="lead/p/node()" /></h2>
+		</header>
+		<xsl:copy-of select="content/node()" />
 	</article>
+</xsl:template>
+
+<xsl:template match="news/entry/image">
+	<p><img src="{$workspace}{@path}/{filename}" alt="{filename}" /></p>
 </xsl:template>
 
 </xsl:stylesheet>

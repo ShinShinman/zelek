@@ -3,16 +3,43 @@
 	{
 		"selected_items":
 		[
+			[
+				"la",
+				"large-5"
+			],
+			[
+				"imag",
+				"image"
+			],
+			[
+				"co",
+				"copy-of"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"log",
+				"log"
+			],
+			[
+				"sass",
+				"sassIncludePath"
+			],
+			[
+				"bac",
+				"background-color"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "pages/news.xsl",
+			"file": "pages/about.xsl",
 			"settings":
 			{
-				"buffer_size": 3255,
-				"encoding": "UTF-8",
+				"buffer_size": 899,
 				"line_ending": "Windows"
 			}
 		}
@@ -53,12 +80,27 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/bronislawzelek.com/workspace/pages/news.xsl",
-		"/Z/Zelek/news/tekst.txt",
 		"/C/xampp/htdocs/bronislawzelek.com/workspace/scss/main.scss",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/pages/news.xsl",
+		"/C/xampp/htdocs/ma.wroc.pl/workspace/gulpfile.js",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/gulpfile.js",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/css/main.css",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/js/main.js",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/js/main.min.js",
+		"/C/Users/shinman/Desktop/Gulp Build System/index.html",
+		"/C/Users/shinman/Desktop/Gulp Build System/package.json",
+		"/C/Users/shinman/Downloads/workspace/coffee/components.js",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/package.json",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/coffee/components.js",
+		"/C/Users/shinman/Desktop/Gulp Build System/coffee/components.js",
+		"/C/xampp/htdocs/bronislawzelek.com/workspace/coffee/components/components.js",
+		"/C/Users/shinman/Desktop/Gulp Build System/coffee/main.coffee",
+		"/C/Users/shinman/Desktop/Gulp Build System/gulpfile.js",
+		"/C/Users/shinman/Downloads/bronislawzelek.com/manifest/config.php",
+		"/C/xampp/htdocs/bronislawzelek.com/manifest/config.php",
+		"/Z/Zelek/news/tekst.txt",
 		"/C/xampp/htdocs/bronislawzelek.com/extensions/ajax_checkbox/extension.meta.xml",
 		"/C/xampp/htdocs/bronislawzelek.com/extensions/ajax_checkbox/README.md",
-		"/C/xampp/htdocs/bronislawzelek.com/workspace/package.json",
 		"/C/xampp/htdocs/bronislawzelek.com/workspace/bower.json",
 		"/C/laragon/www/ma.wroc.pl/package.json",
 		"/C/xampp/htdocs/bronislawzelek.com/workspace/.gitignore",
@@ -89,7 +131,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -103,6 +145,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tooltip",
+			"main",
+			"../",
+			"// @koala-append",
+			"\"",
 			"line-height: 1.6;",
 			"p {",
 			"line-height",
@@ -137,19 +184,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "pages/news.xsl",
-					"semi_transient": false,
+					"file": "pages/about.xsl",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3255,
+						"buffer_size": 899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2824,
-								2824
+								0,
+								0
 							]
 						],
 						"settings":
@@ -158,7 +205,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 648.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
