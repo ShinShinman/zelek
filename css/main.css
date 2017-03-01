@@ -3609,7 +3609,8 @@ body {
     background-repeat: no-repeat; }
 
 p {
-  line-height: 1.4; }
+  line-height: 1.4;
+  color: green; }
 
 a {
   color: black; }

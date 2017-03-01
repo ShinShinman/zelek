@@ -26,7 +26,9 @@
 <xsl:template match="data">
 	<div class="row">
 		<div class="large-5 columns">
+			<xsl:apply-templates select="news/entry" />
 			<article>
+				<h1></h1>
 				<p style="margin-top: 35px"><strong>Junya Watanabe<br/>
 				COMME DES GARCONS<br/>
 				2017 Sprig Summer Mens Collection</strong></p>
@@ -50,9 +52,9 @@
 	</div>
 </xsl:template>
 
-<xsl:template match="about/entry">
+<xsl:template match="news/entry">
 	<article>
-		<p>YSzt yszt</p>
+		<h1><xsl:value-of select="title/p" /></h1>
 	</article>
 </xsl:template>
 

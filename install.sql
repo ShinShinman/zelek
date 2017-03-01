@@ -219,11 +219,31 @@ CREATE TABLE`tbl_entries_data_1` (
   UNIQUE KEY `entry_id` (`entry_id`),
   KEY `handle` (`handle`),
   KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_1` ***
-INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (2, 1, 400, 400);
-INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (4, 2, 421, 421);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (20, 15, 1529, 1529);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (32, 2, 421, 421);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (15, 6, 401, 401);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (16, 7, 410, 410);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (18, 8, 411, 411);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (19, 9, 415, 415);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (10, 10, 1525, 1525);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (11, 11, 1521, 1521);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (12, 12, 1527, 1527);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (13, 13, 1528, 1528);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (14, 14, 1539, 1539);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (21, 16, 1535, 1535);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (22, 17, 1541, 1541);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (23, 18, '1530a', '1530a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (24, 19, '1531a', '1531a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (25, 20, '1532a', '1532a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (26, 21, '1533a', '1533a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (27, 22, '1534a', '1534a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (33, 27, 1520, 1520);
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (29, 24, '1536a', '1536a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (30, 25, '1537a', '1537a');
+INSERT INTO`tbl_entries_data_1` (`id`, `entry_id`, `handle`, `value`) VALUES (31, 26, '1535a', '1535a');
 
 -- *** STRUCTURE:`tbl_entries_data_11` ***
 DROP TABLE IF EXISTS`tbl_entries_data_11`;
@@ -236,10 +256,10 @@ CREATE TABLE`tbl_entries_data_11` (
   UNIQUE KEY `entry_id` (`entry_id`),
   KEY `handle` (`handle`),
   KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_11` ***
-INSERT INTO`tbl_entries_data_11` (`id`, `entry_id`, `handle`, `value`) VALUES (17, 4, 'contact', 'Contact');
+INSERT INTO`tbl_entries_data_11` (`id`, `entry_id`, `handle`, `value`) VALUES (22, 4, 'contact', 'Contact');
 
 -- *** STRUCTURE:`tbl_entries_data_12` ***
 DROP TABLE IF EXISTS`tbl_entries_data_12`;
@@ -251,10 +271,10 @@ CREATE TABLE`tbl_entries_data_12` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `entry_id` (`entry_id`),
   FULLTEXT KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_12` ***
-INSERT INTO`tbl_entries_data_12` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (17, 4, '<ul>\r\n<li>Elisabethstrasse 15</li>\r\n<li>1010 Vienna</li>\r\n</ul>\r\n\r\n<ul>\r\n<li>Atelier Zelek</li>\r\n<li>Im Tredlhof 13</li>\r\n<li>3341 Ybbsitz</li>\r\n</ul>\r\n\r\n<ul>\r\n<li>+43 (0) 0699 10409507</li>\r\n<li><a href=\"mailto:zelek@utanet.at\">zelek@utanet.at</a></li>\r\n</ul>', '<ul>\n<li>Elisabethstrasse 15</li>\n<li>1010 Vienna</li>\n</ul>\n\n<ul>\n<li>Atelier Zelek</li>\n<li>Im Tredlhof 13</li>\n<li>3341 Ybbsitz</li>\n</ul>\n\n<ul>\n<li>+43 (0) 0699 10409507</li>\n<li><a href=\"mailto:zelek@utanet.at\">zelek@utanet.at</a></li>\n</ul>\n');
+INSERT INTO`tbl_entries_data_12` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (22, 4, '<ul>\r\n<li>Elisabethstrasse 15</li>\r\n<li>A-1010 Vienna</li>\r\n</ul>\r\n\r\n<ul>\r\n<li>Atelier Zelek</li>\r\n<li>Im Tredlhof 13</li>\r\n<li>3341 Ybbsitz</li>\r\n</ul>\r\n\r\n<ul class=\"address\">\r\n<li> +43 ( 0 ) 6763 179041</li>\r\n<li>+43 ( 0 ) 0699 10409507</li>\r\n<li><a href=\"mailto:zelek@utanet.at\">zelek@utanet.at</a></li>\r\n</ul>', '<ul>\n<li>Elisabethstrasse 15</li>\n<li>A-1010 Vienna</li>\n</ul>\n\n<ul>\n<li>Atelier Zelek</li>\n<li>Im Tredlhof 13</li>\n<li>3341 Ybbsitz</li>\n</ul>\n\n<ul class=\"address\">\n<li> +43 ( 0 ) 6763 179041</li>\n<li>+43 ( 0 ) 0699 10409507</li>\n<li><a href=\"mailto:zelek@utanet.at\">zelek@utanet.at</a></li>\n</ul>\n');
 
 -- *** STRUCTURE:`tbl_entries_data_15` ***
 DROP TABLE IF EXISTS`tbl_entries_data_15`;
@@ -267,10 +287,10 @@ CREATE TABLE`tbl_entries_data_15` (
   UNIQUE KEY `entry_id` (`entry_id`),
   KEY `handle` (`handle`),
   KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_15` ***
-INSERT INTO`tbl_entries_data_15` (`id`, `entry_id`, `handle`, `value`) VALUES (1, 5, 'collection', 'Collection');
+INSERT INTO`tbl_entries_data_15` (`id`, `entry_id`, `handle`, `value`) VALUES (22, 5, 'collection', 'Collection');
 
 -- *** STRUCTURE:`tbl_entries_data_16` ***
 DROP TABLE IF EXISTS`tbl_entries_data_16`;
@@ -282,10 +302,10 @@ CREATE TABLE`tbl_entries_data_16` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `entry_id` (`entry_id`),
   FULLTEXT KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_16` ***
-INSERT INTO`tbl_entries_data_16` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (1, 5, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n');
+INSERT INTO`tbl_entries_data_16` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (22, 5, 'W o r k s\r\n\r\n+ Can be seen in numerous collections,\r\n+ galleries and museum including:\r\n+ Poster museum, Wilanow, Warsaw\r\n+ Poster museum Posen, Poland\r\n+ DPAM De Paul Art museum Chicago\r\n+ Smithsonian Design museum Cooper Hewitt New York\r\n+ MOMA, New York\r\n\r\n\r\nB i b l i o g r a p h y\r\n\r\n+ Biennale catalog Warsaw 1966, 1968, 1970\r\n+ POLAND magazine Nr.3 1968\r\n+ Galeria Plakatu AMS Nr.7 2008\r\n+ Magazine 2+3 D Nr.41 2011\r\n+ Polish Designers of 20th Century 2015\r\n', '<p>W o r k s</p>\n\n<ul>\n<li>Can be seen in numerous collections,</li>\n<li>galleries and museum including:</li>\n<li>Poster museum, Wilanow, Warsaw</li>\n<li>Poster museum Posen, Poland</li>\n<li>DPAM De Paul Art museum Chicago</li>\n<li>Smithsonian Design museum Cooper Hewitt New York</li>\n<li>MOMA, New York</li>\n</ul>\n\n<p>B i b l i o g r a p h y</p>\n\n<ul>\n<li>Biennale catalog Warsaw 1966, 1968, 1970</li>\n<li>POLAND magazine Nr.3 1968</li>\n<li>Galeria Plakatu AMS Nr.7 2008</li>\n<li>Magazine 2+3 D Nr.41 2011</li>\n<li>Polish Designers of 20th Century 2015</li>\n</ul>\n');
 
 -- *** STRUCTURE:`tbl_entries_data_3` ***
 DROP TABLE IF EXISTS`tbl_entries_data_3`;
@@ -297,11 +317,31 @@ CREATE TABLE`tbl_entries_data_3` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `entry_id` (`entry_id`),
   FULLTEXT KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_3` ***
-INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (2, 1, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
-INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (4, 2, 'Caption', '<p>Caption</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (32, 2, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (15, 6, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (16, 7, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (19, 9, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (10, 10, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (11, 11, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (12, 12, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (13, 13, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (14, 14, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (18, 8, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (20, 15, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (21, 16, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (22, 17, '200 x 150 cm acryl on canvas 2013 - 2016', '<p>200 x 150 cm acryl on canvas 2013 - 2016</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (23, 18, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (24, 19, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (25, 20, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (26, 21, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (27, 22, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (33, 27, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (29, 24, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (30, 25, 'Poster', '<p>Poster</p>\n');
+INSERT INTO`tbl_entries_data_3` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (31, 26, 'Poster', '<p>Poster</p>\n');
 
 -- *** STRUCTURE:`tbl_entries_data_4` ***
 DROP TABLE IF EXISTS`tbl_entries_data_4`;
@@ -316,11 +356,31 @@ CREATE TABLE`tbl_entries_data_4` (
   UNIQUE KEY `entry_id` (`entry_id`),
   KEY `file` (`file`),
   KEY `mimetype` (`mimetype`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_4` ***
-INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (2, 1, '400-1461843932.jpg', 416734, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-28T13:45:33+02:00\";s:5:\"width\";i:1440;s:6:\"height\";i:1080;}');
-INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (4, 2, '421-1461844318.jpg', 199774, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-28T13:51:59+02:00\";s:5:\"width\";i:756;s:6:\"height\";i:1080;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (20, 15, '1529-1466193864.jpg', 238741, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:04:24+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (32, 2, '421-1461844318.jpg', 199774, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-28T13:51:59+02:00\";s:5:\"width\";i:756;s:6:\"height\";i:1080;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (15, 6, '401-1461916216.jpg', 276716, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-29T09:50:17+02:00\";s:5:\"width\";i:1440;s:6:\"height\";i:1080;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (16, 7, '410-1461916241.jpg', 117390, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-29T09:50:41+02:00\";s:5:\"width\";i:1440;s:6:\"height\";i:1080;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (18, 8, '411-1461916262.jpg', 168731, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-29T09:51:02+02:00\";s:5:\"width\";i:1440;s:6:\"height\";i:1080;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (19, 9, '415-1461916340.jpg', 254611, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-04-29T09:52:21+02:00\";s:5:\"width\";i:1440;s:6:\"height\";i:1080;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (10, 10, '1525-1466192273.jpg', 132816, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T21:37:53+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (11, 11, '1521-1466192861.jpg', 234939, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T21:47:41+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (12, 12, '1527-1466192875.jpg', 250972, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T21:47:55+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (13, 13, '1528-1466192888.jpg', 139051, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T21:48:08+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (14, 14, '1539-1466192899.jpg', 146002, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T21:48:19+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (21, 16, '1535-1466193885.jpg', 310085, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:04:45+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (22, 17, '1541-1466193912.jpg', 206710, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:05:12+02:00\";s:5:\"width\";i:600;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (23, 18, '1530a-1466194976.jpg', 226186, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:22:56+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (24, 19, '1531a-1466194993.jpg', 251136, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:23:13+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (25, 20, '1532a-1466195011.jpg', 228335, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:23:30+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (26, 21, '1533a-1466195024.jpg', 220667, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:23:44+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (27, 22, '1534a-1466195035.jpg', 247504, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:23:55+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (33, 27, '1520-1466262321.jpg', 135934, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-18T17:05:21+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (29, 24, '1536a-1466195061.jpg', 262713, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:24:20+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (30, 25, '1537a-1466195073.jpg', 238698, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:24:33+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
+INSERT INTO`tbl_entries_data_4` (`id`, `entry_id`, `file`, `size`, `mimetype`, `meta`) VALUES (31, 26, '1535a-1466195206.jpg', 235307, 'image/jpeg', 'a:3:{s:8:\"creation\";s:25:\"2016-06-17T22:26:46+02:00\";s:5:\"width\";i:315;s:6:\"height\";i:450;}');
 
 -- *** STRUCTURE:`tbl_entries_data_5` ***
 DROP TABLE IF EXISTS`tbl_entries_data_5`;
@@ -333,11 +393,31 @@ CREATE TABLE`tbl_entries_data_5` (
   KEY `entry_id` (`entry_id`),
   KEY `handle` (`handle`),
   KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_5` ***
-INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (2, 1, 'paintings', 'Paintings');
-INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (4, 2, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (20, 15, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (32, 2, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (15, 6, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (16, 7, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (18, 8, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (19, 9, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (10, 10, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (11, 11, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (12, 12, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (13, 13, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (14, 14, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (21, 16, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (22, 17, 'paintings', 'Paintings');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (23, 18, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (24, 19, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (25, 20, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (26, 21, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (27, 22, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (33, 27, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (29, 24, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (30, 25, 'poster', 'Poster');
+INSERT INTO`tbl_entries_data_5` (`id`, `entry_id`, `handle`, `value`) VALUES (31, 26, 'poster', 'Poster');
 
 -- *** STRUCTURE:`tbl_entries_data_6` ***
 DROP TABLE IF EXISTS`tbl_entries_data_6`;
@@ -348,11 +428,31 @@ CREATE TABLE`tbl_entries_data_6` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique` (`entry_id`),
   KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_6` ***
-INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (2, 1, 1);
-INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (4, 2, 2);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (20, 15, 20);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (32, 2, 1);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (15, 6, 16);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (16, 7, 15);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (18, 8, 14);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (19, 9, 12);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (10, 10, 17);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (11, 11, 18);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (12, 12, 19);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (13, 13, 11);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (14, 14, 21);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (21, 16, 13);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (22, 17, 22);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (23, 18, 2);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (24, 19, 3);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (25, 20, 4);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (26, 21, 5);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (27, 22, 6);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (33, 27, 10);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (29, 24, 8);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (30, 25, 9);
+INSERT INTO`tbl_entries_data_6` (`id`, `entry_id`, `value`) VALUES (31, 26, 7);
 
 -- *** STRUCTURE:`tbl_entries_data_7` ***
 DROP TABLE IF EXISTS`tbl_entries_data_7`;
@@ -376,10 +476,10 @@ CREATE TABLE`tbl_entries_data_8` (
   UNIQUE KEY `entry_id` (`entry_id`),
   KEY `handle` (`handle`),
   KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=59 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_8` ***
-INSERT INTO`tbl_entries_data_8` (`id`, `entry_id`, `handle`, `value`) VALUES (1, 3, 'about', 'About');
+INSERT INTO`tbl_entries_data_8` (`id`, `entry_id`, `handle`, `value`) VALUES (58, 3, 'about', 'About');
 
 -- *** STRUCTURE:`tbl_entries_data_9` ***
 DROP TABLE IF EXISTS`tbl_entries_data_9`;
@@ -391,10 +491,10 @@ CREATE TABLE`tbl_entries_data_9` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `entry_id` (`entry_id`),
   FULLTEXT KEY `value` (`value`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=59 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- *** DATA:`tbl_entries_data_9` ***
-INSERT INTO`tbl_entries_data_9` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (1, 3, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n');
+INSERT INTO`tbl_entries_data_9` (`id`, `entry_id`, `value`, `value_formatted`) VALUES (58, 3, '+ born 1935, Nastasow, Poland\r\n<p />\r\n+ 1955 Matura Kenar Lyzeum, Zakopane, Poland\r\n+ 1955 Academy of fine arts, Warsaw\r\n+ 1961 Diploma at Prof. Tomaszewski\r\n+ 1962 - 1970 Assistant of Prof. Tomaszewski\r\n\r\n<img src=\"../workspace/images/p.png\" />\r\n\r\n+ 1961 - 1970 \r\n+ Creation of more than 100 posters\r\n+ published in Poland as well as overseas\r\n+ For his works he received lots of prices and awards,\r\n+ among others:\r\n <p /> \r\n+ 1965  First price at the competition of exhibition posters, Posen\r\n+ 1967 Trepkowski price of the graphic art publishing house, Warsaw\r\n+ 1967  First price in the Chopin poster competition\r\n+ 1968  Winning poster of the year, Warsaw \r\n+ 1969  Winning poster of the year, Warsaw\r\n+ 1969  First price in the competition <br />\r\n<span>of the 25th anniversary of Polish Republic</span>\r\n+ 1969  Silver medal for Chopin poster, poster exhibition, Milan\r\n+ 1969  Gold medal at 3rd poster biennale, Katowic\r\n+ 1974  First price at the international<br />\r\n<span>Mecanorma font competition, Paris</span>\r\n <p /> \r\n+ Participation at the Poster Biennale, Warsaw  1966 - 1968 - 1970\r\n+ 1975  Exhibition organized from Mecanorma, Paris\r\n+ 2012  Accompanying exhibitiont Letere and painting<br />\r\nto  the Poster Biennale, Warsow\r\n+ Participant at lots of exhibitions of Polish Poster Art\r\n <p /> \r\n+ 1970 Emigration to Vienna Austria\r\n+ Design typefaces and occupation with painting\r\n\r\n\r\n\r\n', '<ul>\n<li>born 1935, Nastasow, Poland</li>\n</ul>\n\n<p />\n\n<ul>\n<li>1955 Matura Kenar Lyzeum, Zakopane, Poland</li>\n<li>1955 Academy of fine arts, Warsaw</li>\n<li>1961 Diploma at Prof. Tomaszewski</li>\n<li>1962 - 1970 Assistant of Prof. Tomaszewski</li>\n</ul>\n\n<p><img src=\"../workspace/images/p.png\" /></p>\n\n<ul>\n<li>1961 - 1970 </li>\n<li>Creation of more than 100 posters</li>\n<li>published in Poland as well as overseas</li>\n<li>For his works he received lots of prices and awards,</li>\n<li>among others:</li>\n</ul>\n\n<p />\n\n<ul>\n<li>1965  First price at the competition of exhibition posters, Posen</li>\n<li>1967 Trepkowski price of the graphic art publishing house, Warsaw</li>\n<li>1967  First price in the Chopin poster competition</li>\n<li>1968  Winning poster of the year, Warsaw </li>\n<li>1969  Winning poster of the year, Warsaw</li>\n<li>1969  First price in the competition <br />\n<span>of the 25th anniversary of Polish Republic</span></li>\n<li>1969  Silver medal for Chopin poster, poster exhibition, Milan</li>\n<li>1969  Gold medal at 3rd poster biennale, Katowic</li>\n<li>1974  First price at the international<br />\n<span>Mecanorma font competition, Paris</span></li>\n</ul>\n\n<p />\n\n<ul>\n<li>Participation at the Poster Biennale, Warsaw  1966 - 1968 - 1970</li>\n<li>1975  Exhibition organized from Mecanorma, Paris</li>\n<li>2012  Accompanying exhibitiont Letere and painting<br />\nto  the Poster Biennale, Warsow</li>\n<li>Participant at lots of exhibitions of Polish Poster Art</li>\n</ul>\n\n<p />\n\n<ul>\n<li>1970 Emigration to Vienna Austria</li>\n<li>Design typefaces and occupation with painting</li>\n</ul>\n');
 
 -- *** DATA:`tbl_anti_brute_force` ***
 
@@ -405,11 +505,31 @@ INSERT INTO`tbl_entries_data_9` (`id`, `entry_id`, `value`, `value_formatted`) V
 -- *** DATA:`tbl_anti_brute_force_wl` ***
 
 -- *** DATA:`tbl_entries` ***
-INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (1, 1, 1, '2016-04-28 13:45:32', '2016-04-28 11:45:32', '2016-04-28 13:50:50', '2016-04-28 11:50:50');
-INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (2, 1, 1, '2016-04-28 13:51:58', '2016-04-28 11:51:58', '2016-04-28 16:46:40', '2016-04-28 14:46:40');
-INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (3, 2, 1, '2016-04-28 14:23:47', '2016-04-28 12:23:47', '2016-04-28 14:23:47', '2016-04-28 12:23:47');
-INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (4, 3, 1, '2016-04-28 14:27:18', '2016-04-28 12:27:18', '2016-04-28 16:13:33', '2016-04-28 14:13:33');
-INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (5, 4, 1, '2016-04-28 15:57:06', '2016-04-28 13:57:06', '2016-04-28 15:57:06', '2016-04-28 13:57:06');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (15, 1, 2, '2016-06-17 22:04:24', '2016-06-17 20:04:24', '2016-06-17 22:04:24', '2016-06-17 20:04:24');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (2, 1, 1, '2016-04-28 13:51:58', '2016-04-28 11:51:58', '2016-06-18 17:04:59', '2016-06-18 15:04:59');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (3, 2, 1, '2016-04-28 14:23:47', '2016-04-28 12:23:47', '2016-07-02 17:01:32', '2016-07-02 15:01:32');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (4, 3, 1, '2016-04-28 14:27:18', '2016-04-28 12:27:18', '2016-07-04 14:30:00', '2016-07-04 12:30:00');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (5, 4, 1, '2016-04-28 15:57:06', '2016-04-28 13:57:06', '2016-06-18 17:02:41', '2016-06-18 15:02:41');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (6, 1, 1, '2016-04-29 09:50:16', '2016-04-29 07:50:16', '2016-06-17 22:03:12', '2016-06-17 20:03:12');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (7, 1, 1, '2016-04-29 09:50:41', '2016-04-29 07:50:41', '2016-06-17 22:03:22', '2016-06-17 20:03:22');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (8, 1, 1, '2016-04-29 09:51:02', '2016-04-29 07:51:02', '2016-06-17 22:03:38', '2016-06-17 20:03:38');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (9, 1, 1, '2016-04-29 09:52:20', '2016-04-29 07:52:20', '2016-06-17 22:03:50', '2016-06-17 20:03:50');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (10, 1, 2, '2016-06-17 21:37:53', '2016-06-17 19:37:53', '2016-06-17 21:37:53', '2016-06-17 19:37:53');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (11, 1, 2, '2016-06-17 21:47:41', '2016-06-17 19:47:41', '2016-06-17 21:47:41', '2016-06-17 19:47:41');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (12, 1, 2, '2016-06-17 21:47:55', '2016-06-17 19:47:55', '2016-06-17 21:47:55', '2016-06-17 19:47:55');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (13, 1, 2, '2016-06-17 21:48:08', '2016-06-17 19:48:08', '2016-06-17 21:48:08', '2016-06-17 19:48:08');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (14, 1, 2, '2016-06-17 21:48:19', '2016-06-17 19:48:19', '2016-06-17 21:48:19', '2016-06-17 19:48:19');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (16, 1, 2, '2016-06-17 22:04:45', '2016-06-17 20:04:45', '2016-06-17 22:04:45', '2016-06-17 20:04:45');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (17, 1, 2, '2016-06-17 22:05:12', '2016-06-17 20:05:12', '2016-06-17 22:05:12', '2016-06-17 20:05:12');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (18, 1, 2, '2016-06-17 22:22:56', '2016-06-17 20:22:56', '2016-06-17 22:22:56', '2016-06-17 20:22:56');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (19, 1, 2, '2016-06-17 22:23:13', '2016-06-17 20:23:13', '2016-06-17 22:23:13', '2016-06-17 20:23:13');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (20, 1, 2, '2016-06-17 22:23:31', '2016-06-17 20:23:31', '2016-06-17 22:23:31', '2016-06-17 20:23:31');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (21, 1, 2, '2016-06-17 22:23:44', '2016-06-17 20:23:44', '2016-06-17 22:23:44', '2016-06-17 20:23:44');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (22, 1, 2, '2016-06-17 22:23:55', '2016-06-17 20:23:55', '2016-06-17 22:23:55', '2016-06-17 20:23:55');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (27, 1, 2, '2016-06-18 17:05:21', '2016-06-18 15:05:21', '2016-06-18 17:05:21', '2016-06-18 15:05:21');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (24, 1, 2, '2016-06-17 22:24:21', '2016-06-17 20:24:21', '2016-06-17 22:24:21', '2016-06-17 20:24:21');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (25, 1, 2, '2016-06-17 22:24:33', '2016-06-17 20:24:33', '2016-06-17 22:24:33', '2016-06-17 20:24:33');
+INSERT INTO`tbl_entries` (`id`, `section_id`, `author_id`, `creation_date`, `creation_date_gmt`, `modification_date`, `modification_date_gmt`) VALUES (26, 1, 2, '2016-06-17 22:26:46', '2016-06-17 20:26:46', '2016-06-17 22:26:46', '2016-06-17 20:26:46');
 
 -- *** DATA:`tbl_extensions` ***
 INSERT INTO`tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (1, 'debugdevkit', 'enabled', '1.3.3');
@@ -432,53 +552,53 @@ INSERT INTO`tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (17, 'lim
 INSERT INTO`tbl_extensions` (`id`, `name`, `status`, `version`) VALUES (18, 'simplemde', 'enabled', 0.3);
 
 -- *** DATA:`tbl_extensions_delegates` ***
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (1, 1, '/frontend/', 'FrontendDevKitResolve', 'frontendDevKitResolve');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (2, 1, '/frontend/', 'ManipulateDevKitNavigation', 'manipulateDevKitNavigation');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (3, 2, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (4, 3, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (5, 3, '/system/preferences/', 'Save', '__SavePreferences');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (6, 4, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (7, 4, '/system/preferences/', 'Save', '__SavePreferences');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (8, 4, '/system/preferences/', 'CustomActions', '__toggleMaintenanceMode');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (9, 4, '/backend/', 'AppendPageAlert', '__appendAlert');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (10, 4, '/blueprints/pages/', 'AppendPageContent', '__appendType');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (11, 4, '/frontend/', 'FrontendPrePageResolve', '__checkForMaintenanceMode');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (12, 4, '/frontend/', 'FrontendParamsResolve', '__addParam');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (13, 6, '/frontend/', 'FrontendDevKitResolve', 'frontendDevKitResolve');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (14, 6, '/frontend/', 'ManipulateDevKitNavigation', 'manipulateDevKitNavigation');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (15, 8, '/blueprints/events/', 'AppendEventFilterDocumentation', 'appendEventFilterDocumentation');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (16, 8, '/blueprints/events/new/', 'AppendEventFilter', 'appendEventFilter');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (17, 8, '/blueprints/events/edit/', 'AppendEventFilter', 'appendEventFilter');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (18, 8, '/frontend/', 'EventPreSaveFilter', 'eventPreSaveFilter');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (19, 8, '/frontend/', 'FrontendParamsResolve', 'frontendParamsResolve');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (20, 9, '/backend/', 'InitaliseAdminPageHead', 'appendToHead');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (21, 10, '/login/', 'AuthorLoginFailure', 'authorLoginFailure');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (22, 10, '/login/', 'AuthorLoginSuccess', 'authorLoginSuccess');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (23, 10, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'addCustomPreferenceFieldsets');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (24, 10, '/system/preferences/', 'Save', 'save');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (25, 10, '/backend/', 'AdminPagePreGenerate', 'adminPagePreGenerate');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (26, 10, '/backend/', 'InitialiseAdminPageHead', 'initialiseAdminPageHead');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (27, 10, '/backend/', 'AppendPageAlert', 'appendPageAlert');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (28, 12, '/frontend/', 'FrontendOutputPostGenerate', 'parse_html');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (29, 12, '/frontend/', 'FrontendPageResolved', 'setRenderTrigger');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (30, 12, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (31, 13, '/backend/', 'InitialiseAdminPageHead', 'prepareIndex');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (32, 13, '/backend/', 'AdminPagePreGenerate', 'adjustTable');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (33, 13, '/backend/', 'AdminPagePostGenerate', 'resetPagination');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (34, 13, '/frontend/', 'DataSourcePreExecute', 'saveFilterContext');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (43, 14, '/publish/edit/', 'EntryPostEdit', 'entryPostEdit');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (42, 14, '/backend/', 'AdminPagePreGenerate', 'appendElement');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (41, 14, '/backend/', 'InitaliseAdminPageHead', 'appendJS');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (39, 15, '/backend/', 'InitaliseAdminPageHead', 'appendJS');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (40, 16, '/backend/', 'InitaliseAdminPageHead', 'appendResources');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (44, 14, '/publish/new/', 'EntryPostCreate', 'entryPostEdit');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (45, 17, '/backend/', 'InitaliseAdminPageHead', 'dInitaliseAdminPageHead');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (46, 17, '/backend/', 'AppendPageAlert', 'dAppendPageAlert');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (47, 17, '/backend/', 'AdminPagePreGenerate', 'dAdminPagePreGenerate');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (48, 17, '/blueprints/sections/', 'AddSectionElements', 'dAddSectionElements');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (49, 17, '/blueprints/sections/', 'SectionPreCreate', 'dSaveSectionSettings');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (50, 17, '/blueprints/sections/', 'SectionPreEdit', 'dSaveSectionSettings');
-INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (51, 18, '/backend/', 'InitaliseAdminPageHead', 'appendAssets');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (70, 1, '/frontend/', 'ManipulateDevKitNavigation', 'manipulateDevKitNavigation');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (69, 1, '/frontend/', 'FrontendDevKitResolve', 'frontendDevKitResolve');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (78, 2, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (54, 3, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (60, 4, '/blueprints/pages/', 'AppendPageContent', '__appendType');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (59, 4, '/backend/', 'AppendPageAlert', '__appendAlert');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (58, 4, '/system/preferences/', 'CustomActions', '__toggleMaintenanceMode');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (57, 4, '/system/preferences/', 'Save', '__SavePreferences');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (56, 4, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (72, 6, '/frontend/', 'ManipulateDevKitNavigation', 'manipulateDevKitNavigation');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (71, 6, '/frontend/', 'FrontendDevKitResolve', 'frontendDevKitResolve');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (82, 8, '/frontend/', 'EventPreSaveFilter', 'eventPreSaveFilter');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (81, 8, '/blueprints/events/edit/', 'AppendEventFilter', 'appendEventFilter');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (80, 8, '/blueprints/events/new/', 'AppendEventFilter', 'appendEventFilter');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (79, 8, '/blueprints/events/', 'AppendEventFilterDocumentation', 'appendEventFilterDocumentation');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (95, 9, '/backend/', 'InitaliseAdminPageHead', 'appendToHead');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (92, 10, '/backend/', 'AdminPagePreGenerate', 'adminPagePreGenerate');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (91, 10, '/system/preferences/', 'Save', 'save');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (90, 10, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'addCustomPreferenceFieldsets');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (89, 10, '/login/', 'AuthorLoginSuccess', 'authorLoginSuccess');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (88, 10, '/login/', 'AuthorLoginFailure', 'authorLoginFailure');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (98, 12, '/system/preferences/', 'AddCustomPreferenceFieldsets', 'appendPreferences');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (97, 12, '/frontend/', 'FrontendPageResolved', 'setRenderTrigger');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (96, 12, '/frontend/', 'FrontendOutputPostGenerate', 'parse_html');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (76, 13, '/backend/', 'AdminPagePostGenerate', 'resetPagination');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (75, 13, '/backend/', 'AdminPagePreGenerate', 'adjustTable');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (74, 13, '/backend/', 'InitialiseAdminPageHead', 'prepareIndex');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (86, 14, '/publish/edit/', 'EntryPostEdit', 'entryPostEdit');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (85, 14, '/backend/', 'AdminPagePreGenerate', 'appendElement');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (53, 15, '/backend/', 'InitaliseAdminPageHead', 'appendJS');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (52, 16, '/backend/', 'InitaliseAdminPageHead', 'appendResources');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (84, 14, '/backend/', 'InitaliseAdminPageHead', 'appendJS');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (67, 17, '/blueprints/sections/', 'SectionPreCreate', 'dSaveSectionSettings');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (66, 17, '/blueprints/sections/', 'AddSectionElements', 'dAddSectionElements');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (65, 17, '/backend/', 'AdminPagePreGenerate', 'dAdminPagePreGenerate');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (64, 17, '/backend/', 'AppendPageAlert', 'dAppendPageAlert');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (63, 17, '/backend/', 'InitaliseAdminPageHead', 'dInitaliseAdminPageHead');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (73, 18, '/backend/', 'InitaliseAdminPageHead', 'appendAssets');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (55, 3, '/system/preferences/', 'Save', '__SavePreferences');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (61, 4, '/frontend/', 'FrontendPrePageResolve', '__checkForMaintenanceMode');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (62, 4, '/frontend/', 'FrontendParamsResolve', '__addParam');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (68, 17, '/blueprints/sections/', 'SectionPreEdit', 'dSaveSectionSettings');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (77, 13, '/frontend/', 'DataSourcePreExecute', 'saveFilterContext');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (83, 8, '/frontend/', 'FrontendParamsResolve', 'frontendParamsResolve');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (87, 14, '/publish/new/', 'EntryPostCreate', 'entryPostEdit');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (93, 10, '/backend/', 'InitialiseAdminPageHead', 'initialiseAdminPageHead');
+INSERT INTO`tbl_extensions_delegates` (`id`, `extension_id`, `page`, `delegate`, `callback`) VALUES (94, 10, '/backend/', 'AppendPageAlert', 'appendPageAlert');
 
 -- *** DATA:`tbl_fields` ***
 INSERT INTO`tbl_fields` (`id`, `label`, `element_name`, `type`, `parent_section`, `required`, `sortorder`, `location`, `show_column`) VALUES (1, 'Title', 'title', 'input', 1, 'yes', 1, 'sidebar', 'yes');
@@ -500,17 +620,17 @@ INSERT INTO`tbl_fields` (`id`, `label`, `element_name`, `type`, `parent_section`
 
 -- *** DATA:`tbl_pages` ***
 INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (1, NULL, 'Home', 'home', NULL, NULL, 'navigation,paintings', NULL, 1);
-INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (2, NULL, 'Poster', 'poster', NULL, NULL, 'navigation,poster', NULL, 3);
-INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (3, NULL, 'Paintings', 'paintings', NULL, NULL, 'navigation,paintings', NULL, 2);
+INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (2, NULL, 'Poster 1963 - 1969', 'poster', NULL, NULL, 'jit_image_manipulation_recipes,navigation,poster', NULL, 3);
+INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (3, NULL, 'Painting', 'paintings', NULL, NULL, 'jit_image_manipulation_recipes,navigation,paintings', NULL, 2);
 INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (4, NULL, 'Collection', 'collection', NULL, NULL, 'collection,navigation', NULL, 4);
 INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (5, NULL, 'About', 'about', NULL, NULL, 'about,navigation', NULL, 5);
 INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (6, NULL, 'Contact', 'contact', NULL, NULL, 'contact,navigation', NULL, 6);
-INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (7, NULL, 'Work', 'work', NULL, 'title', 'navigation,work', NULL, 7);
+INSERT INTO`tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (7, NULL, 'Works', 'works', NULL, 'title', 'jit_image_manipulation_recipes,navigation,works', NULL, 7);
 
 -- *** DATA:`tbl_pages_types` ***
 INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (2, 1, 'index');
-INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (3, 2, 'page');
-INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (4, 3, 'page');
+INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (12, 2, 'page');
+INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (11, 3, 'page');
 INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (5, 4, 'page');
 INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (6, 5, 'page');
 INSERT INTO`tbl_pages_types` (`id`, `page_id`, `type`) VALUES (7, 6, 'page');
