@@ -26,22 +26,22 @@
 <xsl:template match="data">
 	<xsl:variable name="prev-page">
 		<xsl:choose>
-			<xsl:when test="$page = 1">
+			<xsl:when test="//news/pagination/@current-page = 1">
 				<xsl:value-of select="news/pagination/@total-pages" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:value-of select="$page - 1" />
+				<xsl:value-of select="//news/pagination/@current-page - 1" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 	
 	<xsl:variable name="next-page">
 		<xsl:choose>
-			<xsl:when test="$page = news/pagination/@total-pages">
+			<xsl:when test="//news/pagination/@current-page = news/pagination/@total-pages">
 				<xsl:text>1</xsl:text>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:value-of select="$page + 1" />
+				<xsl:value-of select="//news/pagination/@current-page + 1" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
