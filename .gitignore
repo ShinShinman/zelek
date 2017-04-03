@@ -3,3 +3,5 @@ node_modules/
 static/
 fonts/
 images/*
+*.sublime-project
+*.sublime-workspace
