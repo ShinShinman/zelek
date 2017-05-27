@@ -3565,6 +3565,8 @@ a {
   color: black; }
   a:hover, a a:focus {
     color: #464646; }
+    a:hover img, a a:focus img {
+      opacity: 0.6; }
 
 ul {
   list-style: none;
@@ -3672,5 +3674,9 @@ article {
 
 .news h1, .news h2 {
   font-weight: bold; }
+
+.news .news-brick {
+  padding-left: 25px;
+  margin-bottom: 2rem; }
 
 /*# sourceMappingURL=main.css.map */

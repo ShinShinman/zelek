@@ -3,7 +3,7 @@ class datasourcenews extends SectionDatasource
 {
     public $dsParamROOTELEMENT = 'news';
     public $dsParamORDER = 'desc';
-    public $dsParamPAGINATERESULTS = 'yes';
+    public $dsParamPAGINATERESULTS = 'no';
     public $dsParamLIMIT = '1';
     public $dsParamSTARTPAGE = '{$page}';
     public $dsParamREDIRECTONEMPTY = 'no';
@@ -35,7 +35,7 @@ class datasourcenews extends SectionDatasource
                 'website' => 'http://localhost/bronislawzelek.com',
                 'email' => 'studio@orkana39.pl'),
             'version' => 'Symphony 2.6.7',
-            'release-date' => '2017-03-01T13:26:31+00:00'
+            'release-date' => '2017-05-27T12:34:37+00:00'
         );
     }
     public function getSource()
