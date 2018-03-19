@@ -3679,4 +3679,18 @@ article {
   padding-left: 25px;
   margin-bottom: 2rem; }
 
+.msg-container .msg {
+  background-color: white;
+  padding: 24px 48px 48px;
+  margin-top: -24px;
+  padding-bottom: 62px; }
+  .msg-container .msg h5 {
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 24px; }
+  .msg-container .msg button {
+    background-color: black;
+    color: white;
+    padding: 8px 48px; }
+
 /*# sourceMappingURL=main.css.map */

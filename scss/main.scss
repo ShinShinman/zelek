@@ -194,3 +194,25 @@ article {
 	}
 
 }
+
+/// MSG / KOMUNIKAT ///
+.msg-container {
+	.msg {
+		background-color: white;
+		padding: 24px 48px 48px;
+		margin-top: -24px;
+		padding-bottom: 62px;
+
+		h5 {
+			font-weight: bold;
+			line-height: 1;
+			margin-bottom: 24px;
+		}
+
+		button {
+			background-color: black;
+			color: white;
+			padding: 8px 48px;
+		}
+	}
+}
