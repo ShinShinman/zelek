@@ -116,7 +116,7 @@
 	<xsl:variable name="prev-news">
 		<xsl:choose>
 			<xsl:when test="preceding-sibling::entry">
-				<xsl:value-of select="preceding-sibling::entry/@id" />
+				<xsl:value-of select="preceding-sibling::entry[1]/@id" />
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:value-of select="../entry[last()]/@id" />
